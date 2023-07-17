@@ -5,7 +5,7 @@ from binance import Client
 
 
 # Часть с ботом
-bot = telebot.TeleBot('5823972005:AAHu0pyYAzrET2Ydwdv65oT_Ib4eX4nIWkg')
+bot = telebot.TeleBot('TOKEN')
 
 
 @bot.message_handler(commands=['start'])
